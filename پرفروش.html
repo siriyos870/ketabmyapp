@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>کتاب‌فروش | کتاب‌های پرفروش</title>
+  <link rel="stylesheet" href="فروشcss">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <header>
+    <h1>📚 کتاب‌فروش</h1>
+    <nav>
+      <ul>
+        <li><a href="ketab.css">خانه</a></li>
+        <li><a href="پرفروش.html">پرفروش‌ترین‌ها</a></li>
+        <li><a href="دسته بدندی.html">دسته‌بندی‌ها</a></li>
+        <li><a href="شس.html">تماس با ما</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="category-title">
+      <h2>🔥 پرفروش‌ترین کتاب‌ها</h2>
+      <p>گلچینی از محبوب‌ترین کتاب‌ها در ایران و جهان</p>
+    </section>
+
+    <section class="book-list">
+      <div class="book-card">
+        <img src="book1.jpg" alt="اثر مرکب">
+        <h3>اثر مرکب</h3>
+        <p>نویسنده: دارن هاردی</p>
+        <button>خرید</button>
+      </div>
+      <div class="book-card">
+        <img src="book2.jpg" alt="بی‌حد و مرز">
+        <h3>بی‌حد و مرز</h3>
+        <p>نویسنده: جیم کوییک</p>
+        <button>خرید</button>
+      </div>
+      <!-- کتاب‌های بیشتر -->
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 کتاب‌فروش | همه حقوق محفوظ است</p>
+  </footer>
+  <script>
+  const toggle = document.querySelector('.menu-toggle');
+  const navbar = document.querySelector('.navbar');
+
+  toggle.addEventListener('click', () => {
+    navbar.classList.toggle('active');
+  });
+</script>
+
+</body>
+</html>

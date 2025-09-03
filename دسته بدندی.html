@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>دسته‌بندی کتاب‌ها</title>
+  <link rel="stylesheet" href="دسته بندی.css" />
+       <link rel="stylesheet" href="ketab.css">
+     <link rel="stylesheet" href="سش.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+    <header class="navbar">
+  <div class="logo">📚 BookZone</div>
+  <nav class="nav-links">
+    <a href="ketab.html">خانه</a>
+    <a href="دسته بدندی.html">دسته‌بندی‌ها</a>
+    <a href="پرفروش.html">پرفروش‌ها</a>
+    <a href="شس.html">تماس با ما</a>
+  </nav>
+  <div class="search-box">
+    <input type="text" placeholder="جستجوی کتاب..." />
+    <button>🔍</button>
+  </div>
+  <div class="menu-toggle">☰</div>
+</header>
+
+</head>
+<body>
+  <header class="header">
+    <h1>📚 دسته‌بندی کتاب‌ها</h1>
+    <input type="text" id="search" placeholder="جستجوی دسته..." />
+  </header>
+
+  <main class="categories">
+    <div class="category-card">
+      <img src="novel.jpg" alt="رمان" />
+      <h2>رمان</h2>
+      <p>داستان‌های عاشقانه، اجتماعی و تخیلی</p>
+    </div>
+    <div class="category-card">
+      <img src="science.jpg" alt="علمی" />
+      <h2>علمی</h2>
+      <p>دانش، فناوری، فیزیک و نجوم</p>
+    </div>
+    <div class="category-card">
+      <img src="kids.jpg" alt="کودکانه" />
+      <h2>کودکانه</h2>
+      <p>کتاب‌های تصویری و آموزشی برای کودکان</p>
+    </div>
+    <div class="category-card">
+      <img src="history.jpg" alt="تاریخی" />
+      <h2>تاریخی</h2>
+      <p>رویدادها و شخصیت‌های تاریخی</p>
+    </div>
+  </main>
+  <script>
+  const toggle = document.querySelector('.menu-toggle');
+  const navbar = document.querySelector('.navbar');
+
+  toggle.addEventListener('click', () => {
+    navbar.classList.toggle('active');
+  });
+</script>
+
+</body>
+</html>

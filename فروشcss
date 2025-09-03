@@ -1,0 +1,117 @@
+/* فونت و تنظیمات پایه */
+body {
+  font-family: 'Vazir', sans-serif;
+  direction: rtl;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* هدر سایت */
+header {
+  background-color: #4a148c;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* بخش معرفی */
+.hero {
+  background-color: #ede7f6;
+  padding: 40px;
+  text-align: center;
+}
+
+.hero h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+/* لیست کتاب‌ها */
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px;
+}
+
+.book-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 220px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.book-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.book-card h3 {
+  margin: 10px 0 5px;
+  font-size: 18px;
+}
+
+.book-card p {
+  font-size: 14px;
+  color: #666;
+}
+
+.book-card button {
+  background-color: #7b1fa2;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.book-card button:hover {
+  background-color: #4a148c;
+}
+
+/* جزئیات کتاب */
+#details {
+  background-color: #fff3e0;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+/* فوتر */
+footer {
+  background-color: #4a148c;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
